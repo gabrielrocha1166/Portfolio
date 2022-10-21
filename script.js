@@ -1,5 +1,7 @@
 const  btn_whatsapp  =  document.querySelector ( '.whatsapp' ) ;
 const  btn_download  =  document.querySelector ( '.download' ) ;
+const  btn_github  =  document.querySelector ( '#github' ) ;
+const  btn_linkedin  =  document.querySelector ( '#linkedin' ) ;
 $(document).ready(function(){
     $(window).scroll(function(){
         if(this.scrollY > 20){
@@ -62,4 +64,12 @@ btn_whatsapp.onclick = function () {
 
 btn_download.onclick = function () {
     open('https://drive.google.com/file/d/1OD5yoabTmOOQkUfMSTWTcjLwoJ6a9V2A/view?usp=sharing');
+  }
+
+btn_github.onclick = function () {
+    open('https://github.com/gabrielrocha1166');
+  }
+  
+btn_linkedin.onclick = function () {
+    open('https://www.linkedin.com/in/gabriel-fernandes-rocha-62b43021a');
   }

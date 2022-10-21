@@ -147,7 +147,7 @@ section .title{
     text-align: center;
     font-size: 40px;
     font-weight: 500;
-    margin-bottom: 60px;
+    margin-bottom: 25px;
     padding-bottom: 20px;
     position: relative;
 }
@@ -156,7 +156,7 @@ section .title::before{
     position: absolute;
     bottom: 0;
     left: 50%;
-    width: 180px;
+    width: px;
     height: 3px;
     background: #111;
     transform: translateX(-50%);
@@ -274,7 +274,7 @@ section .title::after{
 }
 /*  sessão especialidades  */
 .skills .title::after{
-    content: "Que faço";
+    content: "O que sei fazer";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -330,23 +330,23 @@ section .title::after{
     background: #00804b;
 }
 .skills .skills-content .right .html::before{
-    width: 93%;
+    width: 65%;
 }
 .skills .skills-content .right .css::before{
-    width: 85%;
+    width: 58%;
 }
 .skills .skills-content .right .js::before{
-    width: 87%;
+    width: 29%;
 }
-.skills .skills-content .right .php::before{
-    width: 47%;
+.skills .skills-content .right .bootstrap::before{
+    width: 15%;
 }
-.skills .skills-content .right .mysql::before{
-    width: 42%;
+.skills .skills-content .right .java::before{
+    width: 10%;
 }
 /*  sessão equipe  */
 .teams .title::after{
-    content: "Especializada";
+    content: "Especialidades";
 }
 .teams .carousel .card{
     background: #222;
@@ -406,10 +406,10 @@ section .title::after{
 }
 /*  sessão Contato  */
 .contact .title::after{
-    content: "Fale conosco";
+    content: "Clique no botão baixo e envie-me uma mensagem";
 }
 .contact .contact-content .column{
-    width: calc(50% - 30px);
+    width: 100%;
 }
 .contact .contact-content{
     align-items: flex-start;
@@ -438,6 +438,9 @@ section .title::after{
 }
 .contact .contact-content .row .info .sub-title{
     color: #333;
+    background: #fff;
+    font-size: 16px;
+    border: none;
 }
 .contact .contact-content .row ion-icon{
     font-size: 25px;
@@ -513,6 +516,21 @@ footer span a:hover{
     text-decoration: underline;
 }
 
+.centralizar {
+    text-align: center;
+}
+
+#whatsapp {
+    display: inline-block;
+    background: #00804b;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-bottom: 50PX;
+    border-radius: 6px;
+    border: 2px solid #00804b;
+    cursor: pointer;
+}
 
 /*  responsivo  */
 @media (max-width: 1300px){
