@@ -532,6 +532,18 @@ footer span a:hover{
     cursor: pointer;
 }
 
+.vizualizar {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.card {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    border: none;
+}
+
 /*  responsivo  */
 @media (max-width: 1300px){
     .navbar .max-width{
