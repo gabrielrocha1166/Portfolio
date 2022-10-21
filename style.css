@@ -156,11 +156,12 @@ section .title::before{
     position: absolute;
     bottom: 0;
     left: 50%;
-    width: px;
+    width: 200px;
     height: 3px;
     background: #111;
     transform: translateX(-50%);
 }
+
 section .title::after{
     position: absolute;
     bottom:-12px;
@@ -274,7 +275,7 @@ section .title::after{
 }
 /*  sessão especialidades  */
 .skills .title::after{
-    content: "O que sei fazer";
+    content: "Tecnologias";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -406,7 +407,7 @@ section .title::after{
 }
 /*  sessão Contato  */
 .contact .title::after{
-    content: "Clique no botão abaixo e envie-me uma mensagem";
+    content: "Fale comigo";
 }
 .contact .contact-content .column{
     width: 100%;
