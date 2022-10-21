@@ -95,7 +95,7 @@ html{
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
-    margin-top: 20px;
+    margin-top: 50px;
     border-radius: 6px;
     border: 2px solid #00804b;
     cursor: pointer;
@@ -406,7 +406,7 @@ section .title::after{
 }
 /*  sessão Contato  */
 .contact .title::after{
-    content: "Clique no botão baixo e envie-me uma mensagem";
+    content: "Clique no botão abaixo e envie-me uma mensagem";
 }
 .contact .contact-content .column{
     width: 100%;
